@@ -7,10 +7,10 @@ error_reporting(E_ERROR);
 
 
 //$i = $_REQUEST['page'];
-//echo "i".$i."<p>";
+echo "i".$i."<p>";
 
 $links = get_links_on_page('http://zaycev.net/m3_top/2.html');
-//echo "<pre> links";	
+echo " links";	
 //print_r($links);
 //print_r($_SERVER);
 //echo "</pre>";	
@@ -72,6 +72,5 @@ function get_song($content) {
 
 	return array('name' => $name, 'link' => $link);
 }
-
 
 ?>
